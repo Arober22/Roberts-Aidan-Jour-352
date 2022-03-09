@@ -7,11 +7,15 @@ BODY{
   font-weight: 400;
 }
 /*name*/
-h1{
+#name{
   font-size: 3.5em;
   text-transform: uppercase;
   color: #33485e;
   text-align: center;
+  border-bottom: 2px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 /*title*/
 strong{
