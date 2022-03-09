@@ -6,6 +6,13 @@ BODY{
   color: #444;
   font-weight: 400;
 }
+/*container id*/
+#container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /*name*/
 #name{
   font-size: 3.5em;
