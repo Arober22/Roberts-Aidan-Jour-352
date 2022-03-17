@@ -14,3 +14,26 @@ text-align: right;
 .col-md-12 {
 text-align:  center;
 }
+.darkbutton{
+  margin-top: 25px;
+}
+.row-cols-2{
+  text-align: center;
+}
+.row-cols-3{
+  text-align: center;
+}
+.btn, h1, H2, H3, .navbar-brand{
+  font-family: 'Special Elite';
+}
+.row{
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 500px) {
+  h2{
+    padding-top: 50px;
+  }
+  .btn{
+    background-color: teal !important;
+  }
+}
