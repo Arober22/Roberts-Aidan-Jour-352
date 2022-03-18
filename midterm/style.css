@@ -1,15 +1,30 @@
 #page-wrapper{
   width: 100%;
   text-align: center;
+  background-color: Black;
+  color: white;}
+
 }
 p{
   font-size: 12px;
   font-family: 'Helvetica', 'Arial', sans-serif;
+  color: white;
+
 }
-h1{
+.header{
   font-family: serif;
-  font-size: 25px;
+  font-size: 30px;
+  color: white;
 }
+
+.SUBHEAD{
+  font-family: serif;
+  font-size: 30px;
+  color: white;
+}
+
 #authorbyline{
+font-weight: bolder;
+color: white;
 font-weight: bolder;
 }
