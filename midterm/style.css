@@ -1,0 +1,12 @@
+#page-wrapper{
+  width: 100%;
+  text-align: center;
+}
+p{
+  font-size: 12px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+h1{
+  font-family: serif;
+  font-size: 25px;
+}
