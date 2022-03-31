@@ -1,122 +1,163 @@
 /*styles for my resume*/
 
 body{
-  font-family: 'Open Sans', arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1em;
   color: #444;
   font-weight: 400;
+  padding: 0;
+  background-color: #666666;
+}
+.container-fluid{
+  padding: 10px;
+  padding-top: 0px;
+}
+.page-topper{
+  background-color: #363535;
 }
 
-.grey-1 {
-  background-color: #363535
+#initials{
+  border: 1px solid black;
+  background-color: #B2B2B2;
+  width: 290px;
+  height: 290px;
+  line-height: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
 }
 
-/*container id*/
-#container{
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-bottom: 50px;
+.initials-text {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  -webkit-text-stroke: 1.25px #707070;
+  font-size: 94.5px;
 
-
-}
-
-/*name*/
-#name{
-  font-size: 3.5em;
-  text-transform: uppercase;
-  color: #33485e;
-  text-align: center;
-  border-bottom: 2px solid #33485e;
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
 }
 
-/*title*/
-strong{
-  color: #33485e;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 1.5em;
+/* when screen smaller than 892px */
+@media (max-width: 892px) {
+  .divider-border{
+    border-right: none;
+  }
 }
-/*section titles*/
-.sectionheader{
-  font-size: 1.5em;
-  text-transform: uppercase;
-  background-color: #33485e;
-  color: #ffffff;
-  font-weight: 400;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  margin-right: 0px;
-  margin-left: 0px;
-  width: 70%;
-  min-width: 300px;
+@media (min-width: 892px) {
+  .divider-border{
+    border-right: 4px solid white;
+  }
 }
-/*job titles*/
-h3{
-  font-weight: 600;
-  font-size: 2em;
-  margin-top: auto;
-  margin-bottom: auto;
+.divider-border{
+  height: 290px;
+  width: 4px;
+  margin: auto;
 }
-/*job organization class for h4*/
-.organization{
-  font-weight: 400;
-  font-size: 1.5em;
+.toppername{
+  color: white;
+  font-size: 6em;
+  text-align: left;
+  margin: auto;
+}
+.text-list{
+  font-size: 40px;
+  color: white;
+  line-height: 100px;
+  margin: auto;
 }
 
-/*job dates for h5*/
-.date{
-  font-weight: 400;
-  font-size: 1em;
-  margin-top: 3px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  font-style: italic;
+#title-text {
+  font-weight: 100;
+  font-size: 90px;
+  letter-spacing: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
 }
-/*list item style*/
-li{
-  font-size: 1em;
+
+.mission-statement {
+  padding: 1em;
 }
-p{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 0px;
-  margin-left: 0px;
+
+
+.block-title {
+  font-weight: 100;
+  font-size: 40px;
+  letter-spacing: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
 }
-.menu{
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-  display: inline;
+
+
+.experience-position {
+  font-size: 20px;
+  margin-right: auto;
+  width: fit-content;
 }
-#degrees{
-  margin-top: 5px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
+
+.contact {
+  margin-top: 0.5em;
 }
-#do{
-  margin-top: 5px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
+
+.experience-block {
+  padding: 0.8em 1.5em;
 }
-/*this is only used for "journalist"*/
-#title{
-  font-weight: 600;
-  text-align: center;
-  margin-top: 20px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-}\
-.top{
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
-  margin-bottom: 30px;
+
+
+.experience-org {
+  font-size: 17px;
+}
+
+.left-col {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 1em;
+}
+
+.right-col {
+  padding-right: 0;
+  padding-left: 0
+}
+
+.top-level {
+  color: white;
+  background-color: #404040;
+}
+
+.experience-dates {
+  font-size: 15px;
+  margin-bottom: 0.5em;
+}
+
+.social {
+  padding-left: 8em;
+  padding-right: 8em;
+  margin: 1em 0;
+}
+
+.social-title {
+  font-weight: 100;
+  font-size: 25px;
+  letter-spacing: 15px;
+}
+
+.footer-text {
+  margin: 0.25em 1.5em;
+  color: #c4c4c4;
+}
+
+.social-icon i {
+  float: right;
+  font-size: 30px;
+}
+
+.hover-color:hover {
+  color: royalblue;
+}
+.no-decoration {
+  text-decoration: none;
+  color: white;
+}
+.main {
+  color: white;
 }

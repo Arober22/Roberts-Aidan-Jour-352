@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- First style -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Special+Elite&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Aidan Roberts' resume </title>
@@ -14,88 +18,201 @@
   <!-- Stylesheet link -->
   <link rel="stylesheet" type="text/css" href="style.css">
 
-  <!-- First style -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-
   <!-- KEEP THIS LAST -->
   <link rel="stylesheet" type="text/css" href="style.css">
-
+<!--I built this myself! -->
 </head>
 
 <body>
-    <!--I built this myself! -->
-    <div id="container" >
+      <!-- navbar container -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#initials">Aidan Roberts</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                   <a class="nav-link active" aria-current="page" href="#navbarexperience">Experience</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link active" href="#navbarco-curriculars">Co-Curriculars</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link active" href="#navbarcontactme">Contact Me</a>
+                </li>
+             </ul>
+          </div>
+        </div>
+      </nav>
 
+      <div class="container-fluid">
+      <!-- this is the container for the rest of the entire page, all elements besides navbar should be within it -->
+        <div class="page-topper row align-items-center">
+          <div id="initials" class="col-lg-4 col-md-12 col-sm-12">
+            <div class="initials-text">
+              A / R
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 toppername">
+            <div class="align-middle">Aidan Roberts</div>
+          </div>
+          <div class="col-lg-1 col-md-12 col-sm-12">
+            <div class="divider-border"></div>
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-12 text-list">
+            <p>Journalist</p>
+            <p>Editor</p>
+            <p>Graphic Designer</p>
+          </div>
+        </div>
 
+        <div class="top-level row align-items-center">
+          <!-- each time I think of row, think 12 columns inside that row -->
+          <div class="title col-lg-7  col-md-12 col-sm-12 center-block">
+            <div id="title-text">Journalist</div>
+          </div>
+          <div class="mission-statement col-lg-5  col-md-12 col-sm-12">
+            <em class="mission-text">
+              I am a journalist based at the University of Maryland in College Park, Maryland. I have experience working production, beat-writing for University sports teams such as the Baseball and Women's basketball team, as well as publication coverage of former Maryland players who are currently in the NFL.
+            </em>
+          </div>
+        </div>
 
-      <div id="name"> Aidan Roberts</div>
+      <div class="main row">
+        <div class="left-col col-lg-7  col-md-12 col-sm-12">
+          <div class="experience">
+            <div class="block-title"id="navbarexperience">Experience</div>
+            <div class="experience-block">
+              <div class="experience-position">
+                Women's Basketball Beat Writer, Baseball Writer Beat Writer, and General Assignment Writer
+              </div>
+              <em class="experience-org">
+                Testudo Times
+              </em>
+              <div class="experience-dates">
+                November 2019 - January 2021
+              </div>
+              <div class="experience-description">
+                Wrote and edited feature-length articles about the Baseball and Volleyball teams I authored multiple daily updates on all University sports in Maryland Minute articles. I interviewed players and coaches for daily stories and features. I utilized social media and advanced statistical information to drive fan engagement and disseminate breaking news to the public
+              </div>
+            </div>
+
+            <div class="experience-block">
+              <div class="experience-position">
+                Head Bar Back
+              </div>
+              <em class="experience-org">
+                R.J. Bentley's Filling Station
+              </em>
+              <div class="experience-dates">
+                June 2020 - September 2020
+              </div>
+              <div class="experience-description">
+                I developed leadership and collaboration skills in a fast paced, high intensity environment, while coordinating and communicating responsibilities to other employees. I cleared tables, restocked bar items, and thoroughly cleaned the restaurant in accordance with COVID guidelines dictated by the local health department.
+              </div>
+
+            </div>
+          </div>
+          <div class="co-curr">
+            <div class="block-title"id="navbarco-curriculars">Co-Curriculars</div>
+            <div class="experience-block">
+              <div class="experience-position">
+                Active Member and Researcher
+              </div>
+              <em class="experience-org">
+                Preventing Sexual Assault (PSA) at University of Maryland
+              </em>
+              <div class="experience-dates">
+                August 2020 - Present
+              </div>
+              <div class="experience-description">
+                I researched information and interviewed professionals on rape kit accessibility and data Contributed to reports to be presented to University President Darryl Pines.
+              </div>
+
+            </div>
+            <div class="experience-block">
+              <div class="experience-position">
+                Philanthropy Chair, Social Media Manager
+              </div>
+              <em class="experience-org">
+                Sigma Alpha Epsilon, Maryland Beta Chapter
+              </em>
+              <div class="experience-dates">
+                April 2019 - Present
+              </div>
+              <div class="experience-description">
+                I lead fundraising efforts for St. Jude's Children's Research Hospital. I also established, updated, and maintained all social media platforms for Sigma Alpha Epsilon.
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="right-col col-lg-5 col-md-12 col-sm-12">
+          <div class="photos">
+            <img src="aidanintokyo.jpeg" width="100%" />
+          </div>
+          <div class="contact-block">
+            <div class="contact block-title"id="navbarcontactme">
+              Contact Me
+            </div>
+            <div class="social row">
+              <div class="social-title col-md-7">
+                Email
+              </div>
+              <div class="social-icon col-md-5">
+                <a href="mailto:arober22@terpmail.umd.edu" class="no-decoration">
+                  <i class="bi bi-envelope-fill hover-color"></i>
+                </a>
+              </div>
+            </div>
+            <div class="social row">
+              <div class="social-title col-md-7">
+                Instagram
+              </div>
+              <div class="social-icon col-md-5">
+                <a href="https://www.instagram.com/a_rob_32/" class="no-decoration">
+                  <i class="bi bi-instagram hover-color"></i>
+                </a>
+              </div>
+            </div>
+            <div class="social row">
+              <div class="social-title col-md-7">
+                Twitter
+              </div>
+              <div class="social-icon col-md-5">
+                <a href= "https://twitter.com/aidanrir" class="no-decoration">
+                  <i class="bi bi-twitter hover-color"></i>
+                </a>
+              </div>
+            </div>
+            <div class="social row">
+              <div class="social-title col-md-7">
+                LinkedIn
+              </div>
+              <div class="social-icon col-md-5">
+                <a href="https://www.linkedin.com/in/aidan-roberts-4230331a8/" class="no-decoration">
+                  <i class="bi bi-linkedin hover-color"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <span class="footer-text">© 2022 Aidan Roberts</span>
+    </div>
+  </footer>
+
 <!--
       <img src="aidanintokyo.jpeg" width="300px">
 -->
 
-      <div class="menu">
-        <li><a href="mailto:arober22@terpmail.umd.edu"> Email me! </a> </li>
-        <li><a href="https://www.linkedin.com/in/aidan-roberts-4230331a8/"> LinkedIn </a> </li>
-        <li><a href="https://twitter.com/aidanrir"> Twitter </a> </li>
-        <li><a href="https://github.com/Arober22"> Github </a> </li>
-      </div>
-
-      <div id="title"> Journalist </div>
-
-      <div class="top"> I am a journalist based at the University of Maryland in College Park, Maryland. I have experience working production, beat-writing for University sports teams such as the Baseball and Women's basketball team, as well as publication coverage of former Maryland players who are currently in the NFL. </div>
-
-      <div class="sectionheader">Experience:</div>
-
-      <h3> Women's Basketball Beat Writer, Baseball Writer Beat Writer, and General Assignment Writer</h3>
-
-      <div class="organization">Testudo Times</div>
-
-      <div class="date">November 2019 - January 2021</div>
-
-      <div class="description">Wrote and edited feature-length articles about the Baseball and Volleyball teams I authored multiple daily updates on all University sports in "Maryland Minute" articles. I interviewed players and coaches for daily stories and features. I utilized social media and advanced statistical information to drive fan engagement and disseminate breaking news to the public.</div>
-
-      <h3>Head Bar Back</h3>
-
-      <div class="organization">R.J. Bentley's Filling Station</div>
-
-      <div class="date">June 2020 - September 2020</div>
-
-      <div class="description">I developed leadership and collaboration skills in a fast paced, high intensity environment, while coordinating and communicating responsibilities to other employees. I cleared tables, restocked bar items, and thoroughly cleaned the restaurant in accordance with COVID guidelines dictated by the local health department.</div>
-
-      <div class="sectionheader"> Co-Curricular Activities </div>
-
-      <h3>Active Member and Researcher</h3>
-
-      <div class="organization">Preventing Sexual Assault (PSA) at University of Maryland</div>
-
-      <div class="date">August 2020-Present</div>
-
-      <div class="description">Researched information and interviewed professionals on rape kit accessibility and data. Contributed to reports to be presented to University President Darryl Pines.</div>
-
-      <h3>Philanthropy Chair, Social Media Manager</h3>
-
-      <div class="organization">Sigma Alpha Epsilon, Maryland Beta Chapter</div>
-
-      <div class="date">April 2019 - Present</div>
-
-      <div class="description">Lead fundraising efforts for St. Jude's Children's Research Hospital. I also established, updated, and maintained all social media platforms for Sigma Alpha Epsilon.</div>
-
-    <div class="sectionheader"> Education </div>
-      <div id="degrees">
-        <li> Bachelors of Journalism, University of Maryland, 2022 </li>
-      </div>
-
-    <div class="sectionheader"> Skills </div>
-
-      <div id="do">
-        <li>I have proficiency in Microsoft Office, Adobe Premier, and Chorus.</li>
-      </div>
-
-</div>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
