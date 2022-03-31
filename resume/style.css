@@ -1,17 +1,24 @@
 /*styles for my resume*/
 
-BODY{
+body{
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
   color: #444;
   font-weight: 400;
 }
+
+.grey-1 {
+  background-color: #363535
+}
+
 /*container id*/
 #container{
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
+
+
 }
 
 /*name*/
