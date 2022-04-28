@@ -1,0 +1,70 @@
+.headline{
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  z-index: 10;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  /* https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div   */
+}
+.byline{
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+p{
+  font-family: georgia, serif;
+  line-height: 180%;
+}
+.chapter-headline{
+  font-size: 2em;
+  font-weight: 550;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+.columns-alignment-testing{
+  text-align: center;
+}
+.topper {
+  position: relative;
+}
+.sidebar {
+  padding-top: 1em;
+  background-color: lightgray;
+}
+.sidebar-title {
+  font-weight: 550;
+  font-size: 1.25em;
+}
+.sidebar-sub-title {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+#intro{
+  text-align: center;
+  font-weight: bold;
+}
+.block-quote {
+  font-style: italic;
+  font-size: 1em;
+  font-weight: 550;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+.image{
+  width: 100%;
+  height: auto;
+}
+.fancy-link {
+  color: blue;
+}
+.fancy-link:hover {
+  color: red;
+}
+.fancy-link:visited {
+  color: purple;
+}
