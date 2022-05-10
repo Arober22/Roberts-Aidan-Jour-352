@@ -43,7 +43,7 @@ body {
 /* blockquote noticia but italic */
 .block-quote {
   font-style: italic;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 550;
   text-align: left;
   font-family: 'Noticia Text', serif;
