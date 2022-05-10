@@ -40,7 +40,7 @@ body {
   background-color: #D3D3D3;
   font-family: 'Noticia Text', serif;
 }
-
+/* blockquote noticia but italic */
 .block-quote {
   font-style: italic;
   font-size: 1em;
